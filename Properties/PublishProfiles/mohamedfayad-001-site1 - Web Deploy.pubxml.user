@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4n8Jsw2GdkSOjk27LZCarAAAAAACAAAAAAAQZgAAAAEAACAAAADR3Er0wdAM6AsGvzwuu5M8PIgCQlfmTIqeQjnjGv3KZwAAAAAOgAAAAAIAACAAAADgN9dcY3EGd8C74WMvdYi/FMJu4BkFVwGftf4MTGEU4SAAAABRoxCQ6gK0G8AVPKpV2ugaCiA6X8eUUpnN6xY2cMJe70AAAABhQGo6avXYjfbMFhesV6EjsuiVWLXmKJzx/O280/0PORw1rYM3HR7MASy9AB2JG8TxQEUtSU0PYP0LVjYcN9X9</EncryptedPassword>
+    <History>True|2023-06-12T16:15:35.5548260Z;True|2023-06-12T19:06:23.9198229+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnectionsql">
+      <Value>Data Source=SQL5107.site4now.net%3bInitial Catalog=db_a9a836_finalvilladb%3bUser Id=db_a9a836_finalvilladb_admin%3bPassword=m01062972471%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Rstfulapi.Models.Applicationdb">
+      <Value>Data Source=SQL5107.site4now.net%3bInitial Catalog=db_a9a836_finalvilladb%3bUser Id=db_a9a836_finalvilladb_admin%3bPassword=m01062972471%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,554 @@
+2023-06-14 13:07:22.473 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 13:07:22.614 +03:00 [DBG] Hosting starting
+2023-06-14 13:07:22.825 +03:00 [INF] Now listening on: https://localhost:7006
+2023-06-14 13:07:22.825 +03:00 [INF] Now listening on: http://localhost:5053
+2023-06-14 13:07:22.825 +03:00 [DBG] Loaded hosting startup assembly Rstfulapi
+2023-06-14 13:07:22.825 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 13:07:22.825 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 13:07:22.826 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 13:07:22.827 +03:00 [INF] Hosting environment: Development
+2023-06-14 13:07:22.827 +03:00 [INF] Content root path: D:\For Learning\The Basics\.Net\Projects\Rstfulapi_solution\Rstfulapi
+2023-06-14 13:07:22.827 +03:00 [DBG] Hosting started
+2023-06-14 13:07:22.847 +03:00 [DBG] Connection id "0HMRCNSIPJVDM" accepted.
+2023-06-14 13:07:22.847 +03:00 [DBG] Connection id "0HMRCNSIPJVDN" accepted.
+2023-06-14 13:07:22.848 +03:00 [DBG] Connection id "0HMRCNSIPJVDM" started.
+2023-06-14 13:07:22.848 +03:00 [DBG] Connection id "0HMRCNSIPJVDN" started.
+2023-06-14 13:07:22.885 +03:00 [DBG] Connection id "0HMRCNSIPJVDM" received FIN.
+2023-06-14 13:07:22.887 +03:00 [DBG] Connection id "0HMRCNSIPJVDN" received FIN.
+2023-06-14 13:07:22.894 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 13:07:22.923 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 13:07:22.950 +03:00 [DBG] Connection id "0HMRCNSIPJVDM" stopped.
+2023-06-14 13:07:22.951 +03:00 [DBG] Connection id "0HMRCNSIPJVDN" stopped.
+2023-06-14 13:07:22.964 +03:00 [DBG] Connection id "0HMRCNSIPJVDM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 13:07:22.964 +03:00 [DBG] Connection id "0HMRCNSIPJVDN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 13:07:23.283 +03:00 [DBG] Connection id "0HMRCNSIPJVDO" accepted.
+2023-06-14 13:07:23.283 +03:00 [DBG] Connection id "0HMRCNSIPJVDO" started.
+2023-06-14 13:07:23.507 +03:00 [DBG] Connection 0HMRCNSIPJVDO established using the following protocol: "Tls12"
+2023-06-14 13:07:23.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/index.html - -
+2023-06-14 13:07:23.847 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 13:07:23.902 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 13:07:23.904 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 13:07:24.312 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 13:07:24.350 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 13:07:24.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/index.html - - - 200 - text/html;charset=utf-8 590.7814ms
+2023-06-14 13:07:24.430 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - -
+2023-06-14 13:07:24.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 13:07:24.461 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 21.1626ms
+2023-06-14 13:07:24.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 117.0221ms
+2023-06-14 13:07:24.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - -
+2023-06-14 13:07:24.680 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 13:07:24.680 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 13:07:25.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 369.3420ms
+2023-06-14 13:07:28.506 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/api/VillaAPI - -
+2023-06-14 13:07:28.513 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-06-14 13:07:28.527 +03:00 [DBG] Endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-06-14 13:07:28.528 +03:00 [DBG] Request matched endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 13:07:28.539 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 13:07:28.542 +03:00 [INF] Executing endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 13:07:28.562 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Rstfulapi.Models.Villa]] GetVillas() on controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi).
+2023-06-14 13:07:28.564 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 13:07:28.564 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 13:07:28.564 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 13:07:28.564 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 13:07:28.565 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-14 13:07:28.569 +03:00 [DBG] Executing controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 13:07:28.814 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 13:07:28.855 +03:00 [DBG] Executed controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 13:07:29.946 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'Applicationdb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-06-14 13:07:30.021 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-06-14 13:07:30.403 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Name (string) Required MaxLength(40), 1] }
+        SELECT v.id, v.Name
+        FROM villas AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Rstfulapi.Models.Applicationdb, 
+    False, 
+    False, 
+    True
+)'
+2023-06-14 13:07:30.474 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 13:07:30.477 +03:00 [DBG] Creating DbConnection.
+2023-06-14 13:07:30.516 +03:00 [DBG] Created DbConnection. (33ms).
+2023-06-14 13:07:30.530 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (53ms).
+2023-06-14 13:07:30.535 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (63ms).
+2023-06-14 13:07:30.538 +03:00 [DBG] Opening connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:30.981 +03:00 [DBG] Opened connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:30.993 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 13:07:31.058 +03:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 13:07:31.129 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.157 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.158 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.158 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.158 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.158 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.158 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.158 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.159 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.159 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.159 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.159 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.159 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:31.168 +03:00 [DBG] Closing data reader to 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:31.180 +03:00 [DBG] A data reader for 'VillaDB' on server 'DESKTOP-CG9UJUT' is being disposed after spending 113ms reading results.
+2023-06-14 13:07:31.185 +03:00 [DBG] Closing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:31.196 +03:00 [DBG] Closed connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT' (10ms).
+2023-06-14 13:07:31.201 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-06-14 13:07:31.204 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-06-14 13:07:31.209 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-06-14 13:07:31.210 +03:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-06-14 13:07:31.217 +03:00 [INF] Executed action Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi) in 2645.9304ms
+2023-06-14 13:07:31.218 +03:00 [INF] Executed endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 13:07:31.221 +03:00 [DBG] 'Applicationdb' disposed.
+2023-06-14 13:07:31.229 +03:00 [DBG] Disposing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:31.258 +03:00 [DBG] Disposed connection to database '' on server '' (5ms).
+2023-06-14 13:07:31.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/api/VillaAPI - - - 406 0 - 2752.5036ms
+2023-06-14 13:07:33.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/api/VillaAPI - -
+2023-06-14 13:07:33.680 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-06-14 13:07:33.680 +03:00 [DBG] Endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-06-14 13:07:33.680 +03:00 [DBG] Request matched endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 13:07:33.680 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 13:07:33.681 +03:00 [INF] Executing endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 13:07:33.681 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Rstfulapi.Models.Villa]] GetVillas() on controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi).
+2023-06-14 13:07:33.681 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 13:07:33.681 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 13:07:33.681 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 13:07:33.682 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 13:07:33.682 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-14 13:07:33.682 +03:00 [DBG] Executing controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 13:07:33.683 +03:00 [DBG] Executed controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 13:07:33.709 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'Applicationdb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-06-14 13:07:33.711 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 13:07:33.711 +03:00 [DBG] Creating DbConnection.
+2023-06-14 13:07:33.712 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 13:07:33.712 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 13:07:33.712 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 13:07:33.712 +03:00 [DBG] Opening connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:33.714 +03:00 [DBG] Opened connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:33.715 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 13:07:33.718 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 13:07:33.719 +03:00 [DBG] Closing data reader to 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:33.720 +03:00 [DBG] A data reader for 'VillaDB' on server 'DESKTOP-CG9UJUT' is being disposed after spending 1ms reading results.
+2023-06-14 13:07:33.720 +03:00 [DBG] Closing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:33.720 +03:00 [DBG] Closed connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT' (0ms).
+2023-06-14 13:07:33.721 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-06-14 13:07:33.721 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-06-14 13:07:33.722 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 13:07:33.722 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Rstfulapi.Models.Villa, Rstfulapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-14 13:07:33.891 +03:00 [INF] Executed action Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi) in 209.4792ms
+2023-06-14 13:07:33.891 +03:00 [INF] Executed endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 13:07:33.892 +03:00 [DBG] 'Applicationdb' disposed.
+2023-06-14 13:07:33.892 +03:00 [DBG] Disposing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 13:07:33.892 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-06-14 13:07:33.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/api/VillaAPI - - - 200 338 application/json;+charset=utf-8 213.1415ms
+2023-06-14 14:03:19.956 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 14:03:20.242 +03:00 [DBG] Hosting starting
+2023-06-14 14:03:20.699 +03:00 [INF] Now listening on: https://localhost:7006
+2023-06-14 14:03:20.699 +03:00 [INF] Now listening on: http://localhost:5053
+2023-06-14 14:03:20.700 +03:00 [DBG] Loaded hosting startup assembly Rstfulapi
+2023-06-14 14:03:20.700 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 14:03:20.700 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 14:03:20.700 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 14:03:20.701 +03:00 [INF] Hosting environment: Development
+2023-06-14 14:03:20.701 +03:00 [INF] Content root path: D:\For Learning\The Basics\.Net\Projects\Rstfulapi_solution\Rstfulapi
+2023-06-14 14:03:20.701 +03:00 [DBG] Hosting started
+2023-06-14 14:03:20.746 +03:00 [DBG] Connection id "0HMRCORRH1J9R" received FIN.
+2023-06-14 14:03:20.753 +03:00 [DBG] Connection id "0HMRCORRH1J9R" accepted.
+2023-06-14 14:03:20.755 +03:00 [DBG] Connection id "0HMRCORRH1J9R" started.
+2023-06-14 14:03:20.791 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 14:03:20.880 +03:00 [DBG] Connection id "0HMRCORRH1J9R" stopped.
+2023-06-14 14:03:20.898 +03:00 [DBG] Connection id "0HMRCORRH1J9R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 14:03:21.985 +03:00 [DBG] Connection id "0HMRCORRH1J9S" accepted.
+2023-06-14 14:03:21.986 +03:00 [DBG] Connection id "0HMRCORRH1J9S" started.
+2023-06-14 14:03:22.231 +03:00 [DBG] Connection 0HMRCORRH1J9S established using the following protocol: "Tls12"
+2023-06-14 14:03:22.442 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/index.html - -
+2023-06-14 14:03:22.490 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 14:03:22.538 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 14:03:22.539 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 14:03:23.136 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 14:03:23.175 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 14:03:23.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/index.html - - - 200 - text/html;charset=utf-8 740.4282ms
+2023-06-14 14:03:23.253 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 14:03:23.272 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 18.3414ms
+2023-06-14 14:03:23.272 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - -
+2023-06-14 14:03:23.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 436.8146ms
+2023-06-14 14:03:23.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - -
+2023-06-14 14:03:23.816 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 14:03:23.816 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 14:03:24.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 415.3396ms
+2023-06-14 14:03:29.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/api/VillaAPI - -
+2023-06-14 14:03:29.876 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-06-14 14:03:29.886 +03:00 [DBG] Endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-06-14 14:03:29.891 +03:00 [DBG] Request matched endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:03:29.898 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 14:03:29.903 +03:00 [INF] Executing endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:03:29.935 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Rstfulapi.Models.Villa]] GetVillas() on controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi).
+2023-06-14 14:03:29.939 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 14:03:29.939 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 14:03:29.939 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 14:03:29.940 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 14:03:29.940 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-14 14:03:29.944 +03:00 [DBG] Executing controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:03:30.551 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 14:03:30.605 +03:00 [DBG] Executed controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:03:32.070 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'Applicationdb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-06-14 14:03:32.212 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-06-14 14:03:32.455 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Name (string) Required MaxLength(40), 1] }
+        SELECT v.id, v.Name
+        FROM villas AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Rstfulapi.Models.Applicationdb, 
+    False, 
+    False, 
+    True
+)'
+2023-06-14 14:03:32.508 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 14:03:32.510 +03:00 [DBG] Creating DbConnection.
+2023-06-14 14:03:32.562 +03:00 [DBG] Created DbConnection. (48ms).
+2023-06-14 14:03:32.572 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (71ms).
+2023-06-14 14:03:32.575 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (77ms).
+2023-06-14 14:03:32.578 +03:00 [DBG] Opening connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:33.105 +03:00 [DBG] Opened connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:33.113 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 14:03:33.145 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 14:03:33.194 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.207 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.208 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:33.211 +03:00 [DBG] Closing data reader to 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:33.218 +03:00 [DBG] A data reader for 'VillaDB' on server 'DESKTOP-CG9UJUT' is being disposed after spending 68ms reading results.
+2023-06-14 14:03:33.220 +03:00 [DBG] Closing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:33.229 +03:00 [DBG] Closed connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT' (8ms).
+2023-06-14 14:03:33.233 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-06-14 14:03:33.237 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-06-14 14:03:33.238 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 14:03:33.238 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Rstfulapi.Models.Villa, Rstfulapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-14 14:03:33.442 +03:00 [INF] Executed action Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi) in 3495.4472ms
+2023-06-14 14:03:33.443 +03:00 [INF] Executed endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:03:33.446 +03:00 [DBG] 'Applicationdb' disposed.
+2023-06-14 14:03:33.465 +03:00 [DBG] Disposing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:33.468 +03:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2023-06-14 14:03:33.468 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/api/VillaAPI - - - 200 338 application/json;+charset=utf-8 3602.6825ms
+2023-06-14 14:03:55.902 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7006/api/VillaAPI application/json-patch+json 7
+2023-06-14 14:03:55.902 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-06-14 14:03:55.902 +03:00 [DBG] Endpoint 'Rstfulapi.Controllers.VillaAPIController.createVillas (Rstfulapi)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-06-14 14:03:55.902 +03:00 [DBG] Request matched endpoint 'Rstfulapi.Controllers.VillaAPIController.createVillas (Rstfulapi)'
+2023-06-14 14:03:55.902 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 14:03:55.903 +03:00 [INF] Executing endpoint 'Rstfulapi.Controllers.VillaAPIController.createVillas (Rstfulapi)'
+2023-06-14 14:03:55.917 +03:00 [INF] Route matched with {action = "createVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Rstfulapi.Models.Villa] createVillas(System.String) on controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi).
+2023-06-14 14:03:55.917 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 14:03:55.917 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 14:03:55.917 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 14:03:55.917 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 14:03:55.917 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-14 14:03:55.917 +03:00 [DBG] Executing controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:03:55.919 +03:00 [DBG] Executed controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:03:55.928 +03:00 [DBG] Attempting to bind parameter 'villa' of type 'System.String' ...
+2023-06-14 14:03:55.932 +03:00 [DBG] Attempting to bind parameter 'villa' of type 'System.String' using the name '' in request data ...
+2023-06-14 14:03:55.934 +03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 14:03:55.934 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-06-14 14:03:55.941 +03:00 [DBG] Connection id "0HMRCORRH1J9S", Request id "0HMRCORRH1J9S:0000000B": started reading request body.
+2023-06-14 14:03:55.941 +03:00 [DBG] Connection id "0HMRCORRH1J9S", Request id "0HMRCORRH1J9S:0000000B": done reading request body.
+2023-06-14 14:03:56.050 +03:00 [DBG] Done attempting to bind parameter 'villa' of type 'System.String'.
+2023-06-14 14:03:56.050 +03:00 [DBG] Done attempting to bind parameter 'villa' of type 'System.String'.
+2023-06-14 14:03:56.050 +03:00 [DBG] Attempting to validate the bound parameter 'villa' of type 'System.String' ...
+2023-06-14 14:03:56.057 +03:00 [DBG] Done attempting to validate the bound parameter 'villa' of type 'System.String'.
+2023-06-14 14:03:56.083 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'Applicationdb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-06-14 14:03:56.098 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .FirstOrDefault(u => u.Name.ToLower() == __villa_0)'
+2023-06-14 14:03:56.295 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Name (string) Required MaxLength(40), 1] }
+        SELECT TOP(1) v.id, v.Name
+        FROM villas AS v
+        WHERE LOWER(v.Name) == @__villa_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Rstfulapi.Models.Applicationdb, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-06-14 14:03:56.314 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 14:03:56.314 +03:00 [DBG] Creating DbConnection.
+2023-06-14 14:03:56.314 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 14:03:56.315 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 14:03:56.319 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2023-06-14 14:03:56.319 +03:00 [DBG] Opening connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.320 +03:00 [DBG] Opened connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.323 +03:00 [DBG] Executing DbCommand [Parameters=[@__villa_0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[id], [v].[Name]
+FROM [villas] AS [v]
+WHERE LOWER([v].[Name]) = @__villa_0
+2023-06-14 14:03:56.366 +03:00 [INF] Executed DbCommand (45ms) [Parameters=[@__villa_0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[id], [v].[Name]
+FROM [villas] AS [v]
+WHERE LOWER([v].[Name]) = @__villa_0
+2023-06-14 14:03:56.366 +03:00 [DBG] Closing data reader to 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.367 +03:00 [DBG] A data reader for 'VillaDB' on server 'DESKTOP-CG9UJUT' is being disposed after spending 0ms reading results.
+2023-06-14 14:03:56.367 +03:00 [DBG] Closing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.367 +03:00 [DBG] Closed connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT' (0ms).
+2023-06-14 14:03:56.407 +03:00 [DBG] 'Applicationdb' generated a temporary value for the property 'id.Villa'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:56.416 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:56.419 +03:00 [DBG] SaveChanges starting for 'Applicationdb'.
+2023-06-14 14:03:56.436 +03:00 [DBG] DetectChanges starting for 'Applicationdb'.
+2023-06-14 14:03:56.445 +03:00 [DBG] DetectChanges completed for 'Applicationdb'.
+2023-06-14 14:03:56.519 +03:00 [DBG] Opening connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.519 +03:00 [DBG] Opened connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.521 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 14:03:56.521 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 14:03:56.521 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 14:03:56.521 +03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [villas] ([Name])
+OUTPUT INSERTED.[id]
+VALUES (@p0);
+2023-06-14 14:03:56.523 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 40)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [villas] ([Name])
+OUTPUT INSERTED.[id]
+VALUES (@p0);
+2023-06-14 14:03:56.534 +03:00 [DBG] The foreign key property 'Villa.id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-06-14 14:03:56.539 +03:00 [DBG] Closing data reader to 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.539 +03:00 [DBG] A data reader for 'VillaDB' on server 'DESKTOP-CG9UJUT' is being disposed after spending 15ms reading results.
+2023-06-14 14:03:56.539 +03:00 [DBG] Closing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.539 +03:00 [DBG] Closed connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT' (0ms).
+2023-06-14 14:03:56.550 +03:00 [DBG] An entity of type 'Villa' tracked by 'Applicationdb' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:03:56.551 +03:00 [DBG] SaveChanges completed for 'Applicationdb' with 1 entities written to the database.
+2023-06-14 14:03:56.552 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-06-14 14:03:56.552 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-06-14 14:03:56.552 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 14:03:56.552 +03:00 [INF] Executing OkObjectResult, writing value of type 'Rstfulapi.Models.Villa'.
+2023-06-14 14:03:56.553 +03:00 [INF] Executed action Rstfulapi.Controllers.VillaAPIController.createVillas (Rstfulapi) in 635.4157ms
+2023-06-14 14:03:56.553 +03:00 [INF] Executed endpoint 'Rstfulapi.Controllers.VillaAPIController.createVillas (Rstfulapi)'
+2023-06-14 14:03:56.553 +03:00 [DBG] 'Applicationdb' disposed.
+2023-06-14 14:03:56.553 +03:00 [DBG] Disposing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:03:56.553 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-06-14 14:03:56.553 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7006/api/VillaAPI application/json-patch+json 7 - 200 26 application/json;+charset=utf-8 655.5208ms
+2023-06-14 14:04:07.742 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/api/VillaAPI - -
+2023-06-14 14:04:07.742 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-06-14 14:04:07.742 +03:00 [DBG] Endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-06-14 14:04:07.742 +03:00 [DBG] Request matched endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:04:07.742 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 14:04:07.742 +03:00 [INF] Executing endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:04:07.743 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Rstfulapi.Models.Villa]] GetVillas() on controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi).
+2023-06-14 14:04:07.743 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 14:04:07.743 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 14:04:07.743 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 14:04:07.743 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 14:04:07.743 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-14 14:04:07.743 +03:00 [DBG] Executing controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:04:07.746 +03:00 [DBG] Executed controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:04:07.823 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'Applicationdb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-06-14 14:04:07.824 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 14:04:07.824 +03:00 [DBG] Creating DbConnection.
+2023-06-14 14:04:07.824 +03:00 [DBG] Created DbConnection. (0ms).
+2023-06-14 14:04:07.824 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 14:04:07.824 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-06-14 14:04:07.824 +03:00 [DBG] Opening connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:04:07.825 +03:00 [DBG] Opened connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:04:07.825 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 14:04:07.825 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.825 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.826 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.826 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.826 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.826 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.826 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:04:07.826 +03:00 [DBG] Closing data reader to 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:04:07.826 +03:00 [DBG] A data reader for 'VillaDB' on server 'DESKTOP-CG9UJUT' is being disposed after spending 0ms reading results.
+2023-06-14 14:04:07.826 +03:00 [DBG] Closing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:04:07.826 +03:00 [DBG] Closed connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT' (0ms).
+2023-06-14 14:04:07.826 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-06-14 14:04:07.826 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-06-14 14:04:07.826 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 14:04:07.826 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Rstfulapi.Models.Villa, Rstfulapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-14 14:04:07.826 +03:00 [INF] Executed action Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi) in 83.1986ms
+2023-06-14 14:04:07.826 +03:00 [INF] Executed endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:04:07.826 +03:00 [DBG] 'Applicationdb' disposed.
+2023-06-14 14:04:07.826 +03:00 [DBG] Disposing connection to database 'VillaDB' on server 'DESKTOP-CG9UJUT'.
+2023-06-14 14:04:07.826 +03:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-06-14 14:04:07.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/api/VillaAPI - - - 200 365 application/json;+charset=utf-8 84.9045ms
+2023-06-14 14:04:49.880 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-14 14:04:49.986 +03:00 [DBG] Hosting starting
+2023-06-14 14:04:50.187 +03:00 [INF] Now listening on: https://localhost:7006
+2023-06-14 14:04:50.187 +03:00 [INF] Now listening on: http://localhost:5053
+2023-06-14 14:04:50.187 +03:00 [DBG] Loaded hosting startup assembly Rstfulapi
+2023-06-14 14:04:50.187 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-14 14:04:50.187 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-14 14:04:50.187 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-14 14:04:50.188 +03:00 [INF] Hosting environment: Development
+2023-06-14 14:04:50.188 +03:00 [INF] Content root path: D:\For Learning\The Basics\.Net\Projects\Rstfulapi_solution\Rstfulapi
+2023-06-14 14:04:50.188 +03:00 [DBG] Hosting started
+2023-06-14 14:04:50.357 +03:00 [DBG] Connection id "0HMRCOSM7KP7B" accepted.
+2023-06-14 14:04:50.358 +03:00 [DBG] Connection id "0HMRCOSM7KP7B" started.
+2023-06-14 14:04:50.381 +03:00 [DBG] Connection id "0HMRCOSM7KP7B" received FIN.
+2023-06-14 14:04:50.407 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-14 14:04:50.478 +03:00 [DBG] Connection id "0HMRCOSM7KP7B" stopped.
+2023-06-14 14:04:50.491 +03:00 [DBG] Connection id "0HMRCOSM7KP7B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-14 14:04:50.678 +03:00 [DBG] Connection id "0HMRCOSM7KP7C" accepted.
+2023-06-14 14:04:50.678 +03:00 [DBG] Connection id "0HMRCOSM7KP7C" started.
+2023-06-14 14:04:50.954 +03:00 [DBG] Connection 0HMRCOSM7KP7C established using the following protocol: "Tls12"
+2023-06-14 14:04:51.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/index.html - -
+2023-06-14 14:04:51.213 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-14 14:04:51.263 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-14 14:04:51.265 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 14:04:51.593 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-14 14:04:51.636 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-14 14:04:51.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/index.html - - - 200 - text/html;charset=utf-8 506.6280ms
+2023-06-14 14:04:51.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - -
+2023-06-14 14:04:51.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/_vs/browserLink - -
+2023-06-14 14:04:51.713 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 24.1654ms
+2023-06-14 14:04:51.819 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 124.0597ms
+2023-06-14 14:04:51.918 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - -
+2023-06-14 14:04:51.919 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-14 14:04:51.919 +03:00 [DBG] Request did not match any endpoints
+2023-06-14 14:04:52.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 280.8377ms
+2023-06-14 14:05:02.958 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7006/api/VillaAPI - -
+2023-06-14 14:05:02.984 +03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-06-14 14:05:02.987 +03:00 [DBG] Endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-06-14 14:05:02.988 +03:00 [DBG] Request matched endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:05:02.992 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-14 14:05:02.994 +03:00 [INF] Executing endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:05:03.010 +03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Rstfulapi.Models.Villa]] GetVillas() on controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi).
+2023-06-14 14:05:03.012 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-14 14:05:03.012 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-14 14:05:03.013 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-14 14:05:03.013 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-14 14:05:03.013 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-14 14:05:03.016 +03:00 [DBG] Executing controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:05:03.184 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-14 14:05:03.207 +03:00 [DBG] Executed controller factory for controller Rstfulapi.Controllers.VillaAPIController (Rstfulapi)
+2023-06-14 14:05:03.946 +03:00 [DBG] Entity Framework Core 7.0.0 initialized 'Applicationdb' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.0' with options: None
+2023-06-14 14:05:04.010 +03:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()'
+2023-06-14 14:05:04.235 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Name (string) Required MaxLength(40), 1] }
+        SELECT v.id, v.Name
+        FROM villas AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Rstfulapi.Models.Applicationdb, 
+    False, 
+    False, 
+    True
+)'
+2023-06-14 14:05:04.269 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-14 14:05:04.272 +03:00 [DBG] Creating DbConnection.
+2023-06-14 14:05:04.308 +03:00 [DBG] Created DbConnection. (30ms).
+2023-06-14 14:05:04.318 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (47ms).
+2023-06-14 14:05:04.321 +03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (53ms).
+2023-06-14 14:05:04.326 +03:00 [DBG] Opening connection to database 'db_a9a836_finalvilladb' on server 'SQL5107.site4now.net'.
+2023-06-14 14:05:06.074 +03:00 [DBG] Opened connection to database 'db_a9a836_finalvilladb' on server 'SQL5107.site4now.net'.
+2023-06-14 14:05:06.083 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 14:05:06.370 +03:00 [INF] Executed DbCommand (288ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[id], [v].[Name]
+FROM [villas] AS [v]
+2023-06-14 14:05:06.406 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:05:06.421 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:05:06.421 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:05:06.421 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:05:06.421 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:05:06.421 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:05:06.421 +03:00 [DBG] Context 'Applicationdb' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-14 14:05:06.425 +03:00 [DBG] Closing data reader to 'db_a9a836_finalvilladb' on server 'SQL5107.site4now.net'.
+2023-06-14 14:05:06.433 +03:00 [DBG] A data reader for 'db_a9a836_finalvilladb' on server 'SQL5107.site4now.net' is being disposed after spending 56ms reading results.
+2023-06-14 14:05:06.437 +03:00 [DBG] Closing connection to database 'db_a9a836_finalvilladb' on server 'SQL5107.site4now.net'.
+2023-06-14 14:05:06.450 +03:00 [DBG] Closed connection to database 'db_a9a836_finalvilladb' on server 'SQL5107.site4now.net' (14ms).
+2023-06-14 14:05:06.457 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-06-14 14:05:06.461 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-06-14 14:05:06.463 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-14 14:05:06.463 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Rstfulapi.Models.Villa, Rstfulapi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-14 14:05:06.610 +03:00 [INF] Executed action Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi) in 3591.5229ms
+2023-06-14 14:05:06.611 +03:00 [INF] Executed endpoint 'Rstfulapi.Controllers.VillaAPIController.GetVillas (Rstfulapi)'
+2023-06-14 14:05:06.617 +03:00 [DBG] 'Applicationdb' disposed.
+2023-06-14 14:05:06.624 +03:00 [DBG] Disposing connection to database 'db_a9a836_finalvilladb' on server 'SQL5107.site4now.net'.
+2023-06-14 14:05:06.627 +03:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2023-06-14 14:05:06.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7006/api/VillaAPI - - - 200 174 application/json;+charset=utf-8 3670.4492ms
